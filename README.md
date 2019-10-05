@@ -7,10 +7,12 @@ As of [version 70](https://caniuse.com/#feat=picture-in-picture), Chrome provide
 ## Installation
 ![Guide image](https://developer.chrome.com/static/images/get_started/load_extension.png)
 
-1. Open the Extension Management page by navigating to ``` chrome://extensions```.
+1. Download the [zip file](https://github.com/Jantje19/YoutubePiP/archive/master.zip).
+2. Extract it somewhere.
+3. Open the Extension Management page, in Chrome, by navigating to ``` chrome://extensions```.
 The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
-2. Enable Developer Mode by clicking the toggle switch next to "**Developer mode**".
-3. Click the "**LOAD UNPACKED**" button and select the extension directory.
-4. Ta-da! The extension has been successfully installed.
+4. Enable Developer Mode by clicking the toggle switch next to "**Developer mode**".
+5. Click the "**LOAD UNPACKED**" button and select the extracted zip file directory.
+6. Ta-da! The extension has been successfully installed.
 
 If the extension doesn't work immediately, try pressing ```ctrl+shift+r``` on the YouTube watch page.
