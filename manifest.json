@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "YouTubePiP",
+  "version": "0.1",
+  "minimum_chrome_version": "70",
+  "description": "Youtube PiP",
+  "icons": {
+    "18": "Icons/icon - 18.png",
+    "36": "Icons/icon - 36.png",
+    "128": "Icons/icon - 128.png",
+    "48": "Icons/icon - 48.png",
+    "16": "Icons/icon - 16.png",
+    "96": "Icons/icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/watch*",
+        "https://*.youtube.com/embed*"
+      ],
+      "js": [
+        "extension.js"
+      ]
+    }
+  ]
+}
